@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hashicorp-pod
+spec:
+  containers:
+    - name: hashicorp-http
+      image: hashicorp/http-echo
+      ports:
+        - containerPort: 8080
+      args: ["-text='Hello World'","-listen=:8080"]
