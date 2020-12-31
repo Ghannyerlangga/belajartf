@@ -2,7 +2,7 @@ variable "name" {
   type = string
 }
 
-variable "repo" {
+variable "repository" {
   type = string
 }
 
@@ -12,4 +12,5 @@ variable "chart" {
 
 variable "service" {
   type = string
+  default = "ClusterIP"
 }

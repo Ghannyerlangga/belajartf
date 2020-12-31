@@ -2,7 +2,7 @@ variable "name" {
   type = string
 }
 
-variable "repo" {
+variable "repository" {
   type = string
 }
 

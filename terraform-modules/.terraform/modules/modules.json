@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"podinfo","Source":"./modules/podinfo","Dir":"modules/podinfo"},{"Key":"redis","Source":"./modules/redis","Dir":"modules/redis"},{"Key":"wordpress","Source":"./modules/wordpress","Dir":"modules/wordpress"},{"Key":"","Source":"","Dir":"."},{"Key":"nginx-ingress-controller","Source":"./modules/nginx-ingress-controller","Dir":"modules/nginx-ingress-controller"}]}
